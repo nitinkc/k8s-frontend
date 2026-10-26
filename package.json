@@ -1,0 +1,9 @@
+{
+  "name": "k8s-frontend",
+  "version": "1.0.0",
+  "description": "Simple UI to test backend communication in K8s",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
