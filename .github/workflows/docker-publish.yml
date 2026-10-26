@@ -38,6 +38,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          platforms: linux/amd64,linux/arm64
           tags: |
             nitinkc/k8s-frontend:${{ steps.tag_version.outputs.new_tag }}
             nitinkc/k8s-frontend:latest
